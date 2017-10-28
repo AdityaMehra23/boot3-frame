@@ -103,9 +103,73 @@
 
 				<div class="carousel slide" id="mycarousel">
 
+					<!--indicators-->
+					<ol class="carousel-indicators">
+						<li class="active" data-slide-to="0" data-target="#mycarousel"></li>
+						<li data-slide-to="1" data-target="#mycarousel"></li>
+						<li data-slide-to="2" data-target="#mycarousel"></li>
+					</ol>
+
+					<!--wrapper for slides-->
+					<div class="carousel-inner">
+						<div class="item active" id="slide1">
+							<div class="carousel-caption">
+								<h4>Bootstrap 3</h4>
+								<p>Learn how to build your first responsive website with the brand new Twitter
+								Bootstrap 3!</p>
+							</div><!--end carousel-caption-->
+						</div><!--end item-->
+
+						<div class="item" id="slide2">
+							<div class="carousel-caption">
+								<h4>Learn to code a website in 4 hours!</h4>
+								<p>PSD to HTML5</p>
+							</div><!--end carousel-caption-->
+						</div><!--end item-->
+
+						<div class="item" id="slide3">
+							<div class="carousel-caption">
+								<h4>Web Hosting 101</h4>
+								<p>Learn how to buy a perfect domain</p>
+							</div><!--end carousel-caption-->
+						</div><!--end item-->
+					</div><!--end carousel-inner-->
+
+					<!--controls-->
+					<a class="left carousel-control" data-slide="prev" href="#mycarousel"><span
+						class="icon-prev"></span></a>
+					<a class="right carousel-control" data-slide="next" href="#mycarousel"><span
+						class="icon-next"></span></a>
+
 				</div><!--end of mycarousel-->
 				<div class="row" id="mycallout">
+					<div class="col-12">
 
+						<div class="alert alert-success alert-block fade in" id="successAlert">
+							<button type="button" class="close" data-dismiss="alert">&times;</button>
+
+							<h4>Success</h4>
+							<p>You just made this element display by jQuery. Click on the top right corner to close.</p>
+						</div>
+
+						<!--visible only on small devices-->
+						<div class="well well-small visible-sm">
+							<a href="#" class="btn btn-large btn-block btn-default"><span
+								class="glyphicon glyphicon-phone">Give us a call</span></a>
+						</div><!--end well-small-->
+
+						<div class="well">
+							<div class="page-header">
+								<h1>A Fancy Header <small>A subheader for extra awesome</small></h1>
+							</div><!--end page-header-->
+
+							<p class="lead">some solid leading copy will get users engaged.</p>
+
+							<a class="btn btn-large btn-primary" id="alertMe">Click a nice big button</a>
+							<a href="#" class="btn btn-large btn-link">or a secondary button link</a>
+						</div><!--end well-->
+
+					</div><!--end col-12-->
 				</div><!--end of mycallout-->
 				<div class="row" id="featuresheading">
 
