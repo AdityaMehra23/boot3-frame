@@ -79,6 +79,9 @@ Notes:	 Hand coded for Udemy.com
 .well{
   margin: 20px 0;
 }
+.tabbable img.thumbnail{
+  margin: 0 20px 10px 0;
+}
 
 /* --------------------------------------
    Media Queries
