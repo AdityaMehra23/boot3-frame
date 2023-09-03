@@ -1,1 +1,1 @@
-Bootstrap course related repo.
+A project utilizing Bootstrap to build web pages.
